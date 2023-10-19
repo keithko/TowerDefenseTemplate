@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enemy
   - PathEnd
+  - Bullet
   layers:
   - Default
   - TransparentFX
@@ -13,9 +14,9 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
+  - enemy&towers
+  - plants
+  - background
   - 
   - 
   - 
@@ -42,4 +43,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: enemy&towers
+    uniqueID: 2386825853
+    locked: 0
+  - name: backgroung
+    uniqueID: 2100772217
+    locked: 0
+  - name: turretgun
+    uniqueID: 3559060327
     locked: 0

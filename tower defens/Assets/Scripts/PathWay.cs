@@ -4,24 +4,25 @@ using UnityEngine;
 
 public class PathWay : MonoBehaviour
 {
-    [SerializeField] Transform[] Stips;
-
     [SerializeField] private float Movespeed;
+
+    [SerializeField] private Path path;
 
     private int stipsIndex;
     void Start()
     {
-        transform.position = Stips[stipsIndex].transform.position;
+        path = FindObjectOfType<Path>();
+        transform.position = path.Stips[stipsIndex].transform.position;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(stipsIndex <= Stips.Length -1 )
+        if(stipsIndex <= path.Stips.Length -1 )
         {
-            transform.position = Vector2.MoveTowards(transform.position, Stips[stipsIndex].transform.position, Movespeed * Time.deltaTime);
+            transform.position = Vector2.MoveTowards(transform.position, path.Stips[stipsIndex].transform.position, Movespeed * Time.deltaTime);
 
-            if(Vector2.Distance(transform.position, Stips[stipsIndex].transform.position) <= .1f)
+            if(Vector2.Distance(transform.position, path.Stips[stipsIndex].transform.position) <= .1f)
             {
                 stipsIndex += 1;
             }
@@ -32,6 +33,7 @@ public class PathWay : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("PathEnd"))
         {
+            FindObjectOfType<GameOver>().TakeDamage(1);
             Destroy(gameObject);
         }
     }
