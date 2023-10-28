@@ -15,7 +15,7 @@ public class WaveSpawner : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Enemy.Ondied += deadcounter;
+
     }
 
     // Update is called once per frame
@@ -49,10 +49,5 @@ public class WaveSpawner : MonoBehaviour
 
         ScoreManger scoreManager = FindObjectOfType<ScoreManger>(); // Haal het enige ScoreManager script in de scene op.
 
-    }
-
-    private void deadcounter()
-    {
-        Debug.Log("enemy died");
     }
 }

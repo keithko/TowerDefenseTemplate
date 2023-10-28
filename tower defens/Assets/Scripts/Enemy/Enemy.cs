@@ -7,14 +7,20 @@ using UnityEngine.Events;
 
 public class Enemy : MonoBehaviour
 {
-    public float HP = 100;
-    public float CurrentHP;
-    public float Damage = -20;
-    public static event Action Ondied;
+    private int HP = 10;
+    private int startHP;
+    public int CurrentHP;
+    public int Damage = 2;
+    public static event Action<int> Ondied;
 
     private void Start()
     {
         CurrentHP = HP;
+        startHP = HP;
+    }
+    private void Update()
+    {
+        Die();
     }
     public void OnTriggerEnter2D(Collider2D collision)
     {
@@ -26,9 +32,9 @@ public class Enemy : MonoBehaviour
     }
     public void Die()
     {
-        if(HP<= 0)
+        if(CurrentHP<= 0)
         {
-            Ondied?.Invoke();
+            Ondied?.Invoke(startHP);
             Destroy(gameObject);
         }
         

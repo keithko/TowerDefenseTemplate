@@ -19,6 +19,15 @@ public class BulletGreen : MonoBehaviour
         transform.position = Vector3.MoveTowards(transform.position, Target.position, Bspeed * Time.deltaTime) + new Vector3(0, 0, -0.3f);
     }
 
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            Debug.Log("destroy");
+            Destroy(gameObject);
+        }
+    }
+
     public void SetTarget(Transform newTarget)
     {
         Target = newTarget;
