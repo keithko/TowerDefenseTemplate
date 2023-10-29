@@ -3,7 +3,11 @@ Dit is een template wat door jullie te gebruiken is voor het juist inleveren van
 
 Begin met een korte omschrijving van je towerdefense game en hoe deze werkt. Plaats ook een paar screenshots.
 
-![not really my game]([https://cdn.akamai.steamstatic.com/steam/apps/246420/ss_aaaf33cdb9106bd0801a36049516d95c6f2352b0.600x338.jpg?t=1686321490](https://github.com/keithko/TowerDefenseTemplate/tree/master/tower%20defens/Assets/Scripts))
+!![Screenshot (114)](https://github.com/keithko/TowerDefenseTemplate/assets/114576459/be23edaf-3d60-49da-babd-43f041bc5ee1)
+![Screenshot (115)](https://github.com/keithko/TowerDefenseTemplate/assets/114576459/d1829f78-98ac-4005-bab2-7e61faf74efa)
+![Screenshot (116)](https://github.com/keithko/TowerDefenseTemplate/assets/114576459/78c7a2ab-6756-4e93-99e0-2f6e25648814)
+
+
 
 ![also not](https://cdn.akamai.steamstatic.com/steam/apps/960090/ss_900d7c00d45ff2a258d4c8d59ee47f7f04854c37.600x338.jpg?t=1686097340)
 
