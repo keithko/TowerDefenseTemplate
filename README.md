@@ -7,11 +7,6 @@ Begin met een korte omschrijving van je towerdefense game en hoe deze werkt. Pla
 ![Screenshot (115)](https://github.com/keithko/TowerDefenseTemplate/assets/114576459/d1829f78-98ac-4005-bab2-7e61faf74efa)
 ![Screenshot (116)](https://github.com/keithko/TowerDefenseTemplate/assets/114576459/78c7a2ab-6756-4e93-99e0-2f6e25648814)
 
-
-
-![also not](https://cdn.akamai.steamstatic.com/steam/apps/960090/ss_900d7c00d45ff2a258d4c8d59ee47f7f04854c37.600x338.jpg?t=1686097340)
-
-
 ## Product 1: "DRY SRP Scripts op GitHub"
 
 Plaats hier minimaal 1 link naar scripts die voldoen aan de eisen van **"Don't Repeat Yourself (DRY)"** en **"Single Responsibility Principle"**.
