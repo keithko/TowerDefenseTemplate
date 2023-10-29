@@ -6,33 +6,42 @@ using UnityEngine;
 public class ScoreManger : MonoBehaviour
 {
     [SerializeField]int Score = 0;
-    [SerializeField] TMP_Text ScoreText;
+    [SerializeField] TMP_Text MoneyText;
+    [SerializeField] TMP_Text TowerKostText;
     [SerializeField] int tower;
     [SerializeField] int rent = 8;
     private bool buy = false;
     // Start is called before the first frame update
     void Start()
     {
-        tower = 10;
+
         Enemy.Ondied += AddScore;
-        UpdateScoreText();
+        UpdateMoneyText();
+        UpdateTowerKostText();
     }
 
     private void Update()
     {
-        UpdateScoreText();
+        UpdateMoneyText();
+        UpdateTowerKostText();
         kopen();
     }
-    void UpdateScoreText()
+    void UpdateMoneyText()
     {
-        ScoreText.text = "$" + Score;
+        MoneyText.text = "$" + Score;
+    }
+
+    private void UpdateTowerKostText()
+    {
+        TowerKostText.text = "$" + tower;
     }
 
     public void kopen()
     {
         if (buy)
         {
-            TowerGekocht();  
+            TowerGekocht();
+            Debug.Log("toren gekocht de rente gaan omhoog");
         }
     }
     // Update is called once per frame
@@ -42,6 +51,7 @@ public class ScoreManger : MonoBehaviour
     }
     void TowerGekocht()
     {
-        
+        tower = tower + rent;
+        Score -= tower;
     }
 }
