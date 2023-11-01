@@ -86,7 +86,7 @@ Tot slot is er een vijand die andere enemies healt dit zorgt ervoor dat de spele
 
 ## Product 7: Class Diagram voor volledige codebase 
 
-Je brengt je volledige codebase in kaart met behulp van een class diagram. Binnen de classes hoeven geen private members te worden weergegeven. Wel alle public members (fields en methods). Ook geef je indien relevant de relaties tussen je classes weer. Je class diagram plaats je in je readme op github. Evt mag je dit doen m.b.v de [“lucid chart”]([https://mermaid.js.org/syntax/classDiagram.html](https://lucid.app/lucidchart/7c28f34b-4b4e-4be9-9c10-de92550155e4/edit?viewport_loc=-52%2C-99%2C2648%2C1366%2CHWEp-vi-RSFO&invitationId=inv_749d727b-d3cb-4dfe-8d78-3387981235c2)) tool.
+Je brengt je volledige codebase in kaart met behulp van een class diagram. Binnen de classes hoeven geen private members te worden weergegeven. Wel alle public members (fields en methods). Ook geef je indien relevant de relaties tussen je classes weer. Je class diagram plaats je in je readme op github. Evt mag je dit doen m.b.v de [“lucid chart”](https://lucid.app/lucidchart/7c28f34b-4b4e-4be9-9c10-de92550155e4/edit?viewport_loc=-52%2C-99%2C2648%2C1366%2CHWEp-vi-RSFO&invitationId=inv_749d727b-d3cb-4dfe-8d78-3387981235c2)) tool.
 
 ## Product 8: Prototype test video
 Je hebt een werkend prototype gemaakt om een idee te testen. Omschrijf if je readme wat het idee van de mechanics is geweest wat je wilde testen en laat een korte video van de gameplay test zien. 
