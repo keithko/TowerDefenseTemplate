@@ -90,7 +90,7 @@ Je brengt je volledige codebase in kaart met behulp van een class diagram. Binne
 
 
 ```mermaid
-file:///C:/Users/Student/Pictures/Capture.PNG
+![Capture](https://github.com/keithko/TowerDefenseTemplate/assets/114576459/5a53ad98-25b9-4f3b-9f5e-5c67787ada56)
 
 ```
 
