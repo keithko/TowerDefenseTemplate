@@ -130,7 +130,7 @@ Je maakt een SCRUM planning en geeft daarbij een inschatting aan elke userstory 
 
 Plaats in de readme een link naar je trello en **zorg ervoor dat je deze openbaar maakt**
 
-[Link naar de openbare trello](https://trello.com/b/w60wkKSU/examen-paraphrenia)
+[Link naar de openbare trello][(https://trello.com/b/w60wkKSU/examen-paraphrenia)](https://trello.com/invite/b/LlyuX4do/ATTIcab3d41f3cff16504aeccf845b8e67968E00C363/tower-defens-game)
 
 ## Product 10: Gitflow conventions
 
