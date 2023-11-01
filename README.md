@@ -90,7 +90,7 @@ Je brengt je volledige codebase in kaart met behulp van een class diagram. Binne
 
 
 ```mermaid
-![Capture](https://github.com/keithko/TowerDefenseTemplate/assets/114576459/5a53ad98-25b9-4f3b-9f5e-5c67787ada56)
+https://lucid.app/lucidchart/7c28f34b-4b4e-4be9-9c10-de92550155e4/edit?viewport_loc=-52%2C-99%2C2648%2C1366%2CHWEp-vi-RSFO&invitationId=inv_749d727b-d3cb-4dfe-8d78-3387981235c2
 
 ```
 
