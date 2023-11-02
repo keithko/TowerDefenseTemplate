@@ -10,11 +10,11 @@ public class ScoreManger : MonoBehaviour
     [SerializeField] TMP_Text TowerKostText;
     [SerializeField] int tower;
     [SerializeField] int rent = 8;
-    private bool buy = false;
+    BuiltManager builtManager;
     // Start is called before the first frame update
     void Start()
     {
-
+        builtManager = BuiltManager.instance;
         Enemy.Ondied += AddScore;
         UpdateMoneyText();
         UpdateTowerKostText();
@@ -24,7 +24,6 @@ public class ScoreManger : MonoBehaviour
     {
         UpdateMoneyText();
         UpdateTowerKostText();
-        kopen();
     }
     void UpdateMoneyText()
     {
@@ -38,11 +37,7 @@ public class ScoreManger : MonoBehaviour
 
     public void kopen()
     {
-        if (buy)
-        {
             TowerGekocht();
-            Debug.Log("toren gekocht de rente gaan omhoog");
-        }
     }
     // Update is called once per frame
     public void AddScore(int startHP)
@@ -51,7 +46,12 @@ public class ScoreManger : MonoBehaviour
     }
     void TowerGekocht()
     {
-        tower = tower + rent;
-        Score -= tower;
+        if(Score >= tower)
+        {
+            Score -= tower;
+            tower = tower + rent;
+            Debug.Log("toren groen gekocht");
+            builtManager.SetTowerToBuild(builtManager.standardTowerPrefab);
+        }
     }
 }

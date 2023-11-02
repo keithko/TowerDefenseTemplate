@@ -5,13 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class SceneControl : MonoBehaviour
 {
-    public void Level1()
+    public void LoadScene(int scene)
     {
-        SceneManager.LoadScene(1);
-    }
-    public void HomePage()
-    {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(scene);
     }
 
     public void Quit()

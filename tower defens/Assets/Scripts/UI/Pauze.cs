@@ -5,7 +5,7 @@ using UnityEngine;
 public class Pauze : MonoBehaviour
 {
     public GameObject PauzMenu;
-    private bool ispaused;
+    private bool ispaused = false;
     void Start()
     {
         PauzMenu.SetActive(false);
@@ -16,7 +16,7 @@ public class Pauze : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.Escape))
         {
-            if (ispaused )
+            if (ispaused)
             {
                 ResumeGame();
                 Debug.Log("resume");
