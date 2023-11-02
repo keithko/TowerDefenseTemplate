@@ -79,6 +79,8 @@ Tot slot is er een vijand die andere enemies healt dit zorgt ervoor dat de spele
 *  **Een “upgrade” systeem om je torens te verbeteren.**
 
 *Onderbouwing hier...*
+[Hier de link naar mijn issues]([https://github.com/erwinhenraat/TowerDefenseTemplate/issues/](https://mediacollegeamsterdam-my.sharepoint.com/:w:/r/personal/25635_ma-web_nl/Documents/Het%20aarde%20op%20de%20map%20is%20de%20enemey%20pad.docx?d=w702b3ff8f37344d283ca7cfc0b0f0240&csf=1&web=1&e=IqmZB0))
+
 
 *  **Een “movement prediction” systeem waarmee je kan berekenen waar een toren heen moeten schieten om een bewegend object te kunnen raken. (Moeilijk)**
 
