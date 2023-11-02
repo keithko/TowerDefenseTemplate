@@ -3,10 +3,9 @@ Dit is een template wat door jullie te gebruiken is voor het juist inleveren van
 
 Begin met een korte omschrijving van je towerdefense game en hoe deze werkt. Plaats ook een paar screenshots.
 
-![not really my game](https://cdn.akamai.steamstatic.com/steam/apps/246420/ss_aaaf33cdb9106bd0801a36049516d95c6f2352b0.600x338.jpg?t=1686321490)
-
-![also not](https://cdn.akamai.steamstatic.com/steam/apps/960090/ss_900d7c00d45ff2a258d4c8d59ee47f7f04854c37.600x338.jpg?t=1686097340)
-
+!![Screenshot (114)](https://github.com/keithko/TowerDefenseTemplate/assets/114576459/be23edaf-3d60-49da-babd-43f041bc5ee1)
+![Screenshot (115)](https://github.com/keithko/TowerDefenseTemplate/assets/114576459/d1829f78-98ac-4005-bab2-7e61faf74efa)
+![Screenshot (116)](https://github.com/keithko/TowerDefenseTemplate/assets/114576459/78c7a2ab-6756-4e93-99e0-2f6e25648814)
 
 ## Product 1: "DRY SRP Scripts op GitHub"
 
@@ -16,13 +15,13 @@ Omschrijf hier waarom jij denkt dat je in die scripts aan deze eisen voldoet.
 Bijvoorbeeld:
 
 *"In dit script heb ik een array gebruikt voor al mijn vijanden die in de nieuwe wave worden gespawnd. Hierdoor heb ik mijzelf niet hoeven herhalen **(DRY)** in de code omdat ik met 1 regel alle enemies kan plaatsen via en for each loop.
-[link naar script](/MyTowerDefenseGame/Assets/Scripts/JustAScript.cs)"*
+[link naar script](https://github.com/keithko/TowerDefenseTemplate/tree/master/tower%20defens/Assets/Scripts)"*
 
 ## Product 2: "Projectmappen op GitHub"
 
 Je commit de mappenstructuur van je unity project op github en verwijst vanuit je readme naar de root map van je project. Met een netjes en goed gestructureerde mappenstructuur en benamingen van files toon je aan dat je dit leerdoel beheerst. 
 
-Dit is de [ROOT](/MyTowerDefenseGame/) folder van mijn unity project.
+Dit is de [ROOT](https://github.com/keithko/TowerDefenseTemplate/tree/master/tower%20defens) folder van mijn unity project.
 
 Zorg dat deze verwijst naar je Develop branch.
 
@@ -38,7 +37,7 @@ De build van je game bevat textures, sprites en sprite animations(bijv particles
 
 Plaats in je readme een animated gif van je gameplay (+- 10 sec.) waarin de implementatie van je textures en sprites goed te zien is.
 
-![Textures Sprites](readmeVisuals/texturesSprites.gif)
+![Textures Sprites]([file:///C:/Users/Student/Downloads/GamePlay.gif)
 
 ## Product 5: Issues met debug screenshots op GitHub 
 
@@ -80,6 +79,8 @@ Tot slot is er een vijand die andere enemies healt dit zorgt ervoor dat de spele
 *  **Een “upgrade” systeem om je torens te verbeteren.**
 
 *Onderbouwing hier...*
+[Hier de link naar mijn issues]([https://github.com/erwinhenraat/TowerDefenseTemplate/issues/](https://mediacollegeamsterdam-my.sharepoint.com/:w:/r/personal/25635_ma-web_nl/Documents/Het%20aarde%20op%20de%20map%20is%20de%20enemey%20pad.docx?d=w702b3ff8f37344d283ca7cfc0b0f0240&csf=1&web=1&e=IqmZB0))
+
 
 *  **Een “movement prediction” systeem waarmee je kan berekenen waar een toren heen moeten schieten om een bewegend object te kunnen raken. (Moeilijk)**
 
@@ -87,38 +88,7 @@ Tot slot is er een vijand die andere enemies healt dit zorgt ervoor dat de spele
 
 ## Product 7: Class Diagram voor volledige codebase 
 
-Je brengt je volledige codebase in kaart met behulp van een class diagram. Binnen de classes hoeven geen private members te worden weergegeven. Wel alle public members (fields en methods). Ook geef je indien relevant de relaties tussen je classes weer. Je class diagram plaats je in je readme op github. Evt mag je dit doen m.b.v de [“Mermaid”](https://mermaid.js.org/syntax/classDiagram.html) tool.
-
-
-```mermaid
----
-title: Animal example
----
-classDiagram
-    note "From Duck till Zebra"
-    Animal <|-- Duck
-    note for Duck "can fly\ncan swim\ncan dive\ncan help in debugging"
-    Animal <|-- Fish
-    Animal <|-- Zebra
-    Animal : +int age
-    Animal : +String gender
-    Animal: +isMammal()
-    Animal: +mate()
-    class Duck{
-        +String beakColor
-        +swim()
-        +quack()
-    }
-    class Fish{
-        -int sizeInFeet
-        -canEat()
-    }
-    class Zebra{
-        +bool is_wild
-        +run()
-    }
-
-```
+Je brengt je volledige codebase in kaart met behulp van een class diagram. Binnen de classes hoeven geen private members te worden weergegeven. Wel alle public members (fields en methods). Ook geef je indien relevant de relaties tussen je classes weer. Je class diagram plaats je in je readme op github. Evt mag je dit doen m.b.v de [“lucid chart”](https://lucid.app/lucidchart/7c28f34b-4b4e-4be9-9c10-de92550155e4/edit?viewport_loc=-52%2C-99%2C2648%2C1366%2CHWEp-vi-RSFO&invitationId=inv_749d727b-d3cb-4dfe-8d78-3387981235c2)) tool.
 
 ## Product 8: Prototype test video
 Je hebt een werkend prototype gemaakt om een idee te testen. Omschrijf if je readme wat het idee van de mechanics is geweest wat je wilde testen en laat een korte video van de gameplay test zien. 
@@ -131,7 +101,7 @@ Je maakt een SCRUM planning en geeft daarbij een inschatting aan elke userstory 
 
 Plaats in de readme een link naar je trello en **zorg ervoor dat je deze openbaar maakt**
 
-[Link naar de openbare trello](https://trello.com/b/w60wkKSU/examen-paraphrenia)
+[Link naar de openbare trello][(https://trello.com/b/w60wkKSU/examen-paraphrenia)](https://trello.com/invite/b/LlyuX4do/ATTIcab3d41f3cff16504aeccf845b8e67968E00C363/tower-defens-game)
 
 ## Product 10: Gitflow conventions
 
